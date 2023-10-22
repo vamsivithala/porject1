@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #28E7BE;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+        }
+
+        .formBod {
+            background-color: #00003B;
+            margin: auto;
+            width: 40%;
+            padding: 20px 35px 20px 20px;
+
+        }
+
+        form {
+            color: white;
+        }
+
+        #inputWidth {
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+            border-radius: 1px;
+
+        }
+
+        select {
+            width: 102%;
+            padding: 5px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            width: 102%;
+            border-radius: 2px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!------Header----->
+    <header>
+        <h2>QuizerMania Survey Form</h2>
+        <p><i>Thank you for tking the time to help us improve the platform</i></p>
+    </header>
+    <!------Add a div for the form background border----->
+    <div class="formBod">
+        <form action="practice.txt">
+
+            <label for="name">Name</label><br>
+            <input type="text" id="inputWidth" placeholder="Enter your name"><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="inputWidth" placeholder="Enter your Email"><br><br>
+            <label for="age">Age (optional)</label><br>
+            <input type="number" id="inputWidth" placeholder="Age"><br><br>
+
+            <label>Which option best describes your current role?</label><br>
+            <select name="Select">
+                <option value="">Select your current role</option>
+
+                <option value="" id="inputWidth">UI Developer</option>
+                <option value="" id="inputWidth">Devops Engineer</option>
+                <option value="" id="inputWidth">Analyst</option>
+                <option value="" id="inputWidth">Data Architect</option>
+                <option value="" id="inputWidth">Data Strategist</option>
+            </select><br><br>
+
+            <label>Would you recommend QuizerMania to a friend?</label><br>
+            <input type="radio" name="radio">
+            <label for="def">Definitely</label><br>
+            <input type="radio" name="radio">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="radio">
+            <label for="notdure">Not sure</label>
+            <br>
+
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" name="" id="">
+            <label for="">Front-end Projects</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Back-end Projects</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Data visualization</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Challenges</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Open Source Community</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Gitter help rooms</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Videos</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">City Meetups</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Wiki</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Forum</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Additional Courses</label><br><br>
+
+            <label>Any comments or suggestions?</label><br>
+            <textarea id="inputWidth" cols="30" rows="10"
+                style="font-family: monospace;">Enter your content here...</textarea><br><br>
+
+            <button>Submit</button>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

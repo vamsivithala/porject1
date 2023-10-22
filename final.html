@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <!-----STYLING----->
+    <style>
+        body {
+            background: skyblue;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+
+        }
+
+        div {
+
+            background-color: rgb(7, 2, 62);
+            margin: auto;
+            width: 40%;
+            color: white;
+
+        }
+
+        #drp {
+            width: 102%;
+            height: 20px;
+        }
+
+        #wid {
+            width: 100%;
+            height: 13px;
+        }
+
+        form {
+            padding: 20px;
+        }
+
+        input[type="radio"] {
+            width: 9px;
+            height: 9px;
+        }
+
+        #cmt {
+            height: 55px;
+            width: 100%;
+        }
+
+        #btn {
+            color: white;
+            background: green;
+            width: 102%;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body background="skublue">
+    <!--HEADER-->
+    <header>
+        <h2>QuizerMania Survey From</h2>
+        <i>Thank you for taking the time to help us improve the platform</i>
+    </header>
+    <!--/HEADER ENDED-->
+    <br>
+    <!--DIV-->
+    <div class="container">
+        <!--FORM-->
+        <form action="final.html">
+            <label><small>Name</small></label><br>
+            <input type="text" id="wid" placeholder="Enter your name"><br><br>
+            <label><small>Email</small></label><br>
+            <input type="email" id="wid" placeholder="Enter your Email"><br><br>
+            <label><small>Age (optional)</small></label><br>
+            <input type="number" id="wid" placeholder="Enter your Age"><br><br>
+            <label><small>Which option describes your current role?</small></label><br>
+            <select id="drp">
+                <option>Select current role</option>
+            </Select>
+            <br>
+            <br>
+            <label><small>Would you recomend QuizerMania to a friend?</small></label><br>
+            <label>
+                <input type="radio" value="Definitely" name="rd" checked><small>Definitely</small>
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="Maybe" name="rd"><small>Maybe</small>
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="Notsure" name="rd"><small>Notsure</small>
+            </label>
+            <br>
+            <br>
+            <label><small>What would you like to see improved? (check all that apply)</small></label><br>
+            <label>
+                <input type="checkbox" value="Front-end Projects"><small>Front-end Projects</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Back-endProjects"><small>Back-end Projects</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Datavisualization"><small>Data visualization</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Challenges"><small>Challenges</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="OpenSourseCommunity"><small>Open Source Community</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="GitterHelpRooms"><small>Gitter Help Rooms</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Videos"><small>Videos</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="CityMeetups"><small>City Meetups</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Wiki"><small>Wiki</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Forum"><small>Forum</small>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Additionalcourses"><small>Additional Courses </small>
+            </label>
+            <br>
+            <br>
+            <label><small>Any comments or suggestions?</small></label><br>
+            <input type="textar" id="cmt" placeholder="Enter your comment here....">
+            <br>
+            <br>
+            <input type="button" id="btn" value="Submit"><br>
+        </form>
+        <!--/FORM ENDED-->
+    </div>
+    <!--/DIV ENDED-->
+
+</body>
+
+</html>

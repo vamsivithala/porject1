@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-top: 20px;
+        }
+
+        hr.redline {
+            border: 1px solid rgb(176, 84, 84);
+            margin: 20px 0;
+        }
+
+        div {
+            margin-left: 10px;
+        }
+
+        img {
+            margin-top: -10px;
+
+        }
+
+        .btn {
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <hr class="redline">
+    <div class="container">
+        <img src="images/image1.jpg " alt="scenary" width="160px">
+        <h2>Website Name</h2>
+        <input class="btn" type="button" value="Log In">
+        <input class="btn" type="button" value="Sign Up">
+        <ul>
+            <li><a href="About.website">About Website</a></li>
+            <li><a href="New.Link1">New Link1</a></li>
+            <li><a href="New.Line2">New Link2</a></li>
+            <li><a href="New.Line3">New Link3</a></li>
+        </ul>
+        <h3>About Website</h3>
+        <p><small>This is a description of the website</small></p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="2">Header1</th>
+                    <th colspan="2">Header2</th>
+                    <th rowspan="2">Header3</th>
+                </tr>
+                <tr>
+                    <th>Subheader1</th>
+                    <th>Subheader2</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+                <td rowspan="2">Row 1, Cell 4</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+            </tr>
+            <tr>
+                <td colspan="4">Footer</td>
+            </tr>
+        </table>
+        <label>Name:</label>
+        <input type="text" name="name">
+        <label>Email:</label>
+        <input type="email" name="email">
+    </div>
+
+</body>
+
+</html>
